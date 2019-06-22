@@ -1,0 +1,35 @@
+.clock {
+  border: 3px solid gold;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  background: url(./face.png);
+  background-size: contain;
+}
+
+.hand {
+  width: 35%;
+  border-color: black;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+}
+
+.hand.second {
+  border: 1px solid;
+}
+
+.hand.minute {
+  border: 1.5px solid;
+  border-color: darkgreen;
+}
+.hand.hour {
+  border: 1.5px solid;
+  border-color: brown;
+  width: 30%;
+  left: 19%;
+}
